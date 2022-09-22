@@ -1,5 +1,4 @@
 # import the required packages
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -25,7 +24,6 @@ data.hist(figsize = (20, 20))
 plt.show()
 
 # Determine number of fraud cases in dataset
-
 Fraud = data[data['Class'] == 1]
 Valid = data[data['Class'] == 0]
 
